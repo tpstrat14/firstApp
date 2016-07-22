@@ -9,7 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
 
+    @IBOutlet weak var greenButton: UIButton!
+    @IBOutlet weak var greenBackground: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +23,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    @IBAction func makeGreen(sender: AnyObject) {
+        
+        greenButton.hidden = false
+        greenBackground.hidden = false
+        
+    }
+//
 
 }
 
