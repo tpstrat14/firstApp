@@ -25,8 +25,8 @@ class ViewController: UIViewController {
     }
     @IBAction func makeGreen(sender: AnyObject) {
         
-        greenButton.hidden = false
-        greenBackground.hidden = false
+        greenButton.hidden = true
+        greenBackground.hidden = true
         
     }
 //
